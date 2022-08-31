@@ -37,9 +37,8 @@ données, notamment la répartition des dimensions des billets, le nombre
 de vrais / faux billets, etc.
 ## Algorithme
 #### Langage
-L’algorithme peut être écrit soit en Python, soit en R : le choix est laissé
-libre au consultant chargé de sa réalisation.
-Fonctionnement général
+L’algorithme peut être écrit en Python
+#### Fonctionnement général
 Comme vu précédemment, nous avons à notre disposition six données
 géométriques pour chaque billet. L’algorithme devra donc être capable de
 prendre en entrée un fichier contenant les dimensions de plusieurs billets,
@@ -52,6 +51,7 @@ prédiction :
  - une régression logistique classique ;
  - un k-means, duquel seront utilisés les centroïdes pour réaliser la
 prédiction.
+
 Cet algorithme se devra d’être naturellement le plus performant possible
 pour identifier un maximum de faux billets au sein de la masse de billets
 analysés chaque jour.
