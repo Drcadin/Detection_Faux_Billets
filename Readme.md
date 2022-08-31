@@ -17,15 +17,15 @@ ou un faux billet.
 #### Dimensions géométriques
 Nous disposons actuellement de six informations géométriques sur un
 billet :
-# - length : la longueur du billet (en mm) ;
-# - height_left : la hauteur du billet (mesurée sur le côté gauche, en
+ - length : la longueur du billet (en mm) ;
+ - height_left : la hauteur du billet (mesurée sur le côté gauche, en
 mm) ;
-# - height_right : la hauteur du billet (mesurée sur le côté droit, en mm) ;
-# - margin_up : la marge entre le bord supérieur du billet et l'image de
+ - height_right : la hauteur du billet (mesurée sur le côté droit, en mm) ;
+ - margin_up : la marge entre le bord supérieur du billet et l'image de
 celui-ci (en mm) ;
-# - margin_low : la marge entre le bord inférieur du billet et l'image de
+ - margin_low : la marge entre le bord inférieur du billet et l'image de
 celui-ci (en mm) ;
-# - diagonal : la diagonale du billet (en mm).
+ - diagonal : la diagonale du billet (en mm).
 Ces informations sont celles avec lesquelles l’algorithme devra opérer.
 #### Fichier pour paramétrisation
 Nous vous laissons un fichier d’exemple contenant 1 500 billets, que vous
@@ -49,8 +49,8 @@ billets avec lequel l’algorithme sera censé fonctionner, au sein d’un fichi
 nommé billets_production.csv.
 Nous aimerions pouvoir mettre en concurrence deux méthodes de
 prédiction :
-# - une régression logistique classique ;
-# - un k-means, duquel seront utilisés les centroïdes pour réaliser la
+ - une régression logistique classique ;
+ - un k-means, duquel seront utilisés les centroïdes pour réaliser la
 prédiction.
 Cet algorithme se devra d’être naturellement le plus performant possible
 pour identifier un maximum de faux billets au sein de la masse de billets
